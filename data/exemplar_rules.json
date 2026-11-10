@@ -1,0 +1,90 @@
+[
+  {
+    "rule_id": "RULE-01",
+    "metric_scope": ["BEL_FDB", "LACTP", "Own_Funds", "Net_SCR"],
+    "governing_rule": "When explaining With-Profits Fund (WP_Fund) movements, always highlight the symmetric absorbing mechanism of Future Discretionary Benefits (BEL_FDB) and the Loss-Absorbing Capacity of Technical Provisions (LACTP). Explain that adverse economic shocks or lower yields reduce future terminal bonuses (lowering BEL_FDB), which insulates WP_Fund Own_Funds but reduces the LACTP buffer available in Net_SCR.",
+    "approved_terminology": [
+      "Future Discretionary Benefits (BEL_FDB)",
+      "Loss-Absorbing Capacity of Technical Provisions (LACTP)",
+      "policyholder bonus smoothing",
+      "Equity Backing Ratio (EBR)",
+      "PPFM-governed management actions"
+    ],
+    "prohibited_phrasing": [
+      "profit margin reserve",
+      "discretionary shareholder reserve",
+      "free tax shield",
+      "guaranteed bonus reduction"
+    ],
+    "exemplar_narrative_snippet": "In the With-Profits Fund, Own Funds remained stable at £250.0m despite a 50 bps fall in risk-free yields, as the £22.0m increase in Guaranteed BEL was offset by a £32.0m reduction in Future Discretionary Benefits (BEL_FDB). Correspondingly, the smaller FDB buffer reduced the Loss-Absorbing Capacity of Technical Provisions (LACTP) by £9.0m (from £80.0m to £71.0m)."
+  },
+  {
+    "rule_id": "RULE-02",
+    "metric_scope": ["BEL_Guaranteed", "Risk_Margin", "Net_SCR", "Solvency_Ratio_Pct"],
+    "governing_rule": "When explaining Non-Profit Fund (NP_Fund) interest rate sensitivity, explicitly state that NP_Fund has zero BEL_FDB and zero LACTP. Consequently, downward shifts in the GBP risk-free discount curve directly inflate long-duration annuity BEL_Guaranteed, Risk_Margin (via Cost-of-Capital discounted at lower rates), and Net_SCR (PV01 strain), unless mitigated by matching assets or reinsurance.",
+    "approved_terminology": [
+      "PV01 discount rate strain",
+      "long-duration annuity liabilities",
+      "Cost-of-Capital Risk Margin sensitivity",
+      "unhedged duration mismatch",
+      "zero LACTP offset"
+    ],
+    "prohibited_phrasing": [
+      "bonus absorption in Non-Profit",
+      "discretionary buffer in NP_Fund",
+      "automatic interest rate pass-through"
+    ],
+    "exemplar_narrative_snippet": "Unlike the With-Profits Fund, the Non-Profit Fund carries no Future Discretionary Benefits (BEL_FDB = £0.0m) to absorb discount rate movements. As a result, the 50 bps decline in the 10-year GBP risk-free rate generated £35.0m of economic BEL strain and £11.5m of upward Net_SCR pressure."
+  },
+  {
+    "rule_id": "RULE-03",
+    "metric_scope": ["ALL_METRICS"],
+    "governing_rule": "Structure every variance explanation in strict order of materiality: (1) Headline movement (Prior Year, Current Year, exact £M delta and % or bps change), (2) Primary quantitative drivers from the Movement Bridge (Economic Variances, Operating Assumption Changes, Management Actions), (3) Qualitative rationale citing exact document IDs, and (4) Forward-looking sensitivity context.",
+    "approved_terminology": [
+      "Analysis of Change (AoC)",
+      "primary variance driver",
+      "partially offset by mitigating management actions",
+      "in line with published sensitivity profiles"
+    ],
+    "prohibited_phrasing": [
+      "roughly",
+      "around about",
+      "moved for various reasons",
+      "unexplained variance"
+    ],
+    "exemplar_narrative_snippet": "NP_Fund Net_SCR increased by £5.0m (+4.2%) from £120.0m at YE 2024 to £125.0m at YE 2025. Per the Analysis of Change, upward pressure from Economic Variances (+£11.5m, DOC-ECON-05) and Operating Assumption Changes (+£6.0m, DOC-ASSUMP-02) was largely offset by the Q4 Quota Share Longevity Swap Management Action (-£12.0m, DOC-REINS-03)."
+  },
+  {
+    "rule_id": "RULE-04",
+    "metric_scope": ["BEL_Total", "Own_Funds", "Net_SCR"],
+    "governing_rule": "Strictly separate Economic Variances (market-driven yield curve and equity movements) from Operating Assumption Changes (actuarial basis updates from experience studies) and Management Actions (deliberate ALCO hedging or reinsurance treaties). Never conflate an assumption change with an economic variance.",
+    "approved_terminology": [
+      "Operating Assumption Changes",
+      "Economic Variances",
+      "ALCO-approved Management Actions",
+      "demographic experience study updates"
+    ],
+    "prohibited_phrasing": [
+      "market assumption changes",
+      "economic management actions",
+      "random actuarial adjustments"
+    ],
+    "exemplar_narrative_snippet": "The £10.0m reduction in NP_Fund Own Funds (from £190.0m to £180.0m) was primarily driven by Operating Assumption Changes (-£21.5m following the Q3 lapse and longevity experience review, DOC-ASSUMP-02), rather than Economic Variances (-£4.0m net of bond asset gains, DOC-ECON-05)."
+  },
+  {
+    "rule_id": "RULE-05",
+    "metric_scope": ["Solvency_Ratio_Pct", "Surplus", "Net_SCR"],
+    "governing_rule": "When explaining economic movements in Own Funds or Net_SCR, cross-reference the published YE 2025 Capital Sensitivity Matrix (`capital_sensitivities.csv`) to validate that the observed movement aligns with the expected shock elasticity (e.g., `RATES_DOWN_50BPS` or `EQUITY_DOWN_20PCT`).",
+    "approved_terminology": [
+      "published sensitivity elasticity",
+      "RATES_DOWN_50BPS scenario",
+      "parallel yield curve shift",
+      "solvency coverage resilience"
+    ],
+    "prohibited_phrasing": [
+      "unexpected rate shock",
+      "unmodeled interest rate effect"
+    ],
+    "exemplar_narrative_snippet": "The observed +£11.5m economic variance in NP_Fund Net_SCR from the 50 bps drop in GBP swap rates closely aligns with the published RATES_DOWN_50BPS sensitivity table (SENS_NP_01), which models a +£11.0m Net_SCR impact for a 50 bps parallel downward shift."
+  }
+]

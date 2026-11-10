@@ -1,0 +1,16 @@
+sensitivity_id,fund,shock_scenario,shock_description,delta_own_funds_gbp_m,delta_net_scr_gbp_m,delta_surplus_gbp_m,new_solvency_ratio_pct
+SENS_WP_01,WP_Fund,RATES_DOWN_50BPS,Parallel downward shift of 50 bps in GBP risk-free yield curve,-8.0,9.0,-17.0,180.6
+SENS_WP_02,WP_Fund,RATES_UP_50BPS,Parallel upward shift of 50 bps in GBP risk-free yield curve,7.0,-8.0,15.0,219.7
+SENS_WP_03,WP_Fund,EQUITY_DOWN_20PCT,Instantaneous 20% fall in global equity market values,-12.0,-6.0,-6.0,200.0
+SENS_WP_04,WP_Fund,MASS_LAPSE_20PCT,Immediate 20% mass surrender of lapse-sensitive policies,-4.0,-3.0,-1.0,201.6
+SENS_WP_05,WP_Fund,LONGEVITY_STRESS_5PCT,Permanent 5% decrease in mortality rates across all ages,-3.0,3.0,-6.0,193.0
+SENS_NP_01,NP_Fund,RATES_DOWN_50BPS,Parallel downward shift of 50 bps in GBP risk-free yield curve,-5.0,11.0,-16.0,128.7
+SENS_NP_02,NP_Fund,RATES_UP_50BPS,Parallel upward shift of 50 bps in GBP risk-free yield curve,4.5,-10.0,14.5,160.4
+SENS_NP_03,NP_Fund,EQUITY_DOWN_20PCT,Instantaneous 20% fall in global equity market values,-3.0,-1.0,-2.0,142.7
+SENS_NP_04,NP_Fund,MASS_LAPSE_20PCT,Immediate 20% mass surrender of lapse-sensitive policies,-14.0,-4.0,-10.0,137.2
+SENS_NP_05,NP_Fund,LONGEVITY_STRESS_5PCT,Permanent 5% decrease in mortality rates across all ages,-11.0,7.0,-18.0,128.0
+SENS_TOT_01,Total_Entity,RATES_DOWN_50BPS,Parallel downward shift of 50 bps in GBP risk-free yield curve,-13.0,20.0,-33.0,154.4
+SENS_TOT_02,Total_Entity,RATES_UP_50BPS,Parallel upward shift of 50 bps in GBP risk-free yield curve,11.5,-18.0,29.5,190.3
+SENS_TOT_03,Total_Entity,EQUITY_DOWN_20PCT,Instantaneous 20% fall in global equity market values,-15.0,-7.0,-8.0,170.8
+SENS_TOT_04,Total_Entity,MASS_LAPSE_20PCT,Immediate 20% mass surrender of lapse-sensitive policies,-18.0,-7.0,-11.0,169.5
+SENS_TOT_05,Total_Entity,LONGEVITY_STRESS_5PCT,Permanent 5% decrease in mortality rates across all ages,-14.0,10.0,-24.0,160.0

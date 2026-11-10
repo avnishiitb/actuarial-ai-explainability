@@ -1,0 +1,42 @@
+[
+  {
+    "doc_id": "DOC-ALC-01",
+    "doc_type": "ALCO Minutes",
+    "date": "2026-10-18",
+    "fund_scope": "WP_Fund",
+    "title": "Q4 2026 Asset-Liability Committee Minutes: With-Profits Equity De-Risking and Put Option Collar",
+    "content": "The Asset-Liability Committee (ALCO) reviewed the capital position of the With-Profits Fund (WP_Fund) ahead of the YE 2026 valuation following heightened equity market volatility and an unpredicted 50 bps downward shift in the 10-year GBP risk-free swap curve during 2026 (from 4.10% at YE 2025 to 3.60% at YE 2026, versus a predicted 4.05%). To protect the fund's Solvency II coverage ratio, the Committee approved an immediate tactical reduction in the Equity Backing Ratio (EBR) from 45.0% to 38.0%, reallocating £70.0m from Equities and Property into high-grade Government and Corporate Bonds. In parallel, the Investment Desk executed an over-the-counter (OTC) 12-month European equity put option overlay. Combined, these management actions directly reduced gross SCR_Market in the WP_Fund by £17.0m overall and delivered a net management action reduction of £15.0m to WP_Fund Net_SCR in the YE 2026 movement bridge, lifting the WP_Fund Solvency Ratio from 192.3% (YE 2025) to 200.0% (YE 2026 Actual)."
+  },
+  {
+    "doc_id": "DOC-ASSUMP-02",
+    "doc_type": "Actuarial Methodology Paper",
+    "date": "2026-11-12",
+    "fund_scope": "NP_Fund",
+    "title": "YE 2026 Annual Demographic & Expense Assumption Review (Non-Profit & With-Profits Funds)",
+    "content": "Following completion of the 2026 Experience Investigation, the Actuarial Function recommends three updates to the Non-Profit Fund (NP_Fund) valuation basis for YE 2026 compared to the YE 2025 prior basis and YE 2026 predicted baseline. First, persistent cost-of-living pressures have elevated early surrenders on level term protection policies; consequently, the NP Term Life base lapse rate assumption is increased from 6.50% to 8.00% (+150 bps). Second, annuitant mortality experience in the in-force annuity book tracked lighter than expected, prompting a reduction in base mortality from 96.0% to 94.0% of PMA16/PFA16 and an increase in the long-term longevity improvement trend from 1.50% to 1.75%. Third, per-policy maintenance expenses are raised from £48.00 to £50.50 (vs £49.00 predicted) due to IT inflation. Collectively, these operating assumption changes increased NP_Fund BEL by £18.0m and Risk Margin by £3.5m (total £21.5m Own Funds strain) and increased NP_Fund Net_SCR by £6.0m."
+  },
+  {
+    "doc_id": "DOC-REINS-03",
+    "doc_type": "Note to Balance Sheet",
+    "date": "2026-12-05",
+    "fund_scope": "NP_Fund",
+    "title": "Note 14 (YE 2026): Execution of Longevity Swap & Quota Share Reinsurance Treaty in Non-Profit Fund",
+    "content": "To mitigate the capital strain arising from lower risk-free interest rates and strengthened annuitant longevity assumptions in 2026, Albion Life Assurance plc entered into an expanded Quota Share Longevity Reinsurance treaty effective 1 December 2026 for the Non-Profit Fund (NP_Fund), increasing ceded annuity longevity exposure from 50.0% to 70.0%. On the YE 2026 Solvency II balance sheet, Reinsurance Recoverables in NP_Fund increased from £70.0m (YE 2025) and £72.0m (YE 2026 Predicted) to £95.0m (YE 2026 Actual). While the treaty premium and structural fee terms resulted in a modest initial BEL increase and Own Funds frictional cost of £3.0m, the risk transfer successfully reduced NP_Fund SCR_Life_Underwriting, delivering a £12.0m management action reduction to NP_Fund Net_SCR. Without this reinsurance action, the NP_Fund Solvency Ratio at YE 2026 would have fallen to 132.4% instead of closing at 144.0%."
+  },
+  {
+    "doc_id": "DOC-WPB-04",
+    "doc_type": "Actuarial Committee Memo",
+    "date": "2026-12-10",
+    "fund_scope": "WP_Fund",
+    "title": "YE 2026 With-Profits Bonus Declaration & Future Discretionary Benefits (FDB) Calibration",
+    "content": "The With-Profits Actuary presented the YE 2026 bonus recommendations in accordance with the Principles and Practices of Financial Management (PPFM). Regular bonus rates on participating policies are maintained at 2.25% to preserve policyholder smoothing. However, to reflect lower prospective investment returns following the 50 bps drop in GBP risk-free yields in 2026 and the lower Equity Backing Ratio (38.0%), the Terminal Bonus Scale Factor was recalibrated downward from 100.0% to 92.0% (-8.0%). In the YE 2026 Solvency II valuation, this management action and economic absorption reduced WP_Fund BEL for Future Discretionary Benefits (BEL_FDB) by £32.0m year-on-year (from £220.0m at YE 2025 to £188.0m at YE 2026 Actual, vs £217.0m Predicted), including an explicit £8.0m management action release in BEL. Because lower FDB reduces the buffer available to absorb severe stress scenarios, the Loss-Absorbing Capacity of Technical Provisions (LACTP) decreased from £80.0m to £71.0m."
+  },
+  {
+    "doc_id": "DOC-ECON-05",
+    "doc_type": "Note to Balance Sheet",
+    "date": "2026-12-31",
+    "fund_scope": "Total_Entity",
+    "title": "Note 4 (YE 2026): Economic Variances, Discount Rate Movements, and PV01 Sensitivity Analysis",
+    "content": "During FY 2026, the PRA-prescribed 10-year GBP Solvency II risk-free swap rate declined by 50 bps from 4.10% (YE 2025) to 3.60% (YE 2026 Actual), compared to a 4.05% forward-curve prediction. Across Total_Entity, this unpredicted downward shift in discount rates was the primary economic driver of balance sheet variance, consistent with our published RATES_DOWN_50BPS sensitivity profile. In the Non-Profit Fund (NP_Fund), where liabilities consist solely of guaranteed cashflows (BEL_Guaranteed) with long duration and zero FDB offset, the 50 bps rate drop increased BEL by £35.0m, increased Risk Margin by £4.0m, reduced Own Funds by £4.0m (net of £35.0m bond asset appreciation), and drove an £11.5m economic variance increase in Net_SCR. Conversely, in the With-Profits Fund (WP_Fund), the £22.0m increase in BEL_Guaranteed was naturally offset by a reduction in BEL_FDB, limiting the net economic variance on WP_Fund Net_SCR to +£9.0m before management actions."
+  }
+]

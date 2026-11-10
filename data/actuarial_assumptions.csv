@@ -1,0 +1,10 @@
+assumption_id,fund,assumption_name,unit,ye_2024_val,ye_2025_val,change_val,rationale_ref_doc_id
+ASM_01,Total_Entity,GBP_10Y_Risk_Free_Swap_Rate,pct,4.10,3.60,-0.50,DOC-ECON-05
+ASM_02,WP_Fund,WP_Equity_Backing_Ratio_EBR,pct,45.00,38.00,-7.00,DOC-ALC-01
+ASM_03,WP_Fund,WP_Regular_Bonus_Rate,pct,2.25,2.25,0.00,DOC-WPB-04
+ASM_04,WP_Fund,WP_Terminal_Bonus_Scale_Factor,pct,100.00,92.00,-8.00,DOC-WPB-04
+ASM_05,NP_Fund,NP_Term_Life_Base_Lapse_Rate,pct,6.50,8.00,1.50,DOC-ASSUMP-02
+ASM_06,NP_Fund,NP_Annuity_Base_Mortality_PMA16,pct,96.00,94.00,-2.00,DOC-ASSUMP-02
+ASM_07,NP_Fund,NP_Longevity_Improvement_Trend,pct,1.50,1.75,0.25,DOC-ASSUMP-02
+ASM_08,NP_Fund,NP_Per_Policy_Maintenance_Expense,gbp,48.00,50.50,2.50,DOC-ASSUMP-02
+ASM_09,NP_Fund,NP_Annuity_Quota_Share_Ceded_Pct,pct,50.00,70.00,20.00,DOC-REINS-03
